@@ -1,0 +1,88 @@
+\documentclass[12pt]{article}
+
+\addtolength{\textwidth}{1.4in}
+\addtolength{\oddsidemargin}{-.7in} %left margin
+\addtolength{\evensidemargin}{-.7in}
+\setlength{\textheight}{8.5in}
+\setlength{\topmargin}{0.0in}
+\setlength{\headsep}{0.0in}
+\setlength{\headheight}{0.0in}
+\setlength{\footskip}{.5in}
+\renewcommand{\baselinestretch}{1.0}
+\setlength{\parindent}{0pt}
+\linespread{1.1}
+
+\usepackage{amssymb, amsmath, amsthm, bm}
+\usepackage{graphicx,csquotes,verbatim}
+\usepackage[backend=biber,block=space,style=authoryear]{biblatex}
+\setlength{\bibitemsep}{\baselineskip}
+\usepackage[american]{babel}
+%dell laptop
+\addbibresource{C:/Users/Kristy/Dropbox/Research/xBibs/tradeagreements.bib}
+%\addbibresource{C:/Users/Kristy/Documents/Dropbox/Research/xBibs/tradeagreements.bib}
+\renewcommand{\newunitpunct}{,}
+\renewbibmacro{in:}{}
+
+
+\DeclareMathOperator*{\argmax}{arg\,max}
+\usepackage{xcolor}
+\hbadness=10000
+
+\newcommand{\ve}{\varepsilon}
+\newcommand{\ov}{\overline}
+\newcommand{\un}{\underline}
+\newcommand{\ta}{\theta}
+\newcommand{\al}{\alpha}
+\newcommand{\Ta}{\Theta}
+\newcommand{\expect}{\mathbb{E}}
+\newcommand{\Bt}{B(\bm{\tau^a})}
+\newcommand{\bta}{\bm{\tau^a}}
+\newcommand{\btn}{\bm{\tau^n}}
+\newcommand{\ga}{\gamma}
+\newcommand{\Ga}{\Gamma}
+\newcommand{\de}{\delta}
+
+
+\title{Problems with Dropbox}
+\author{Kristy \& Frank}
+
+\begin{document}
+\maketitle
+
+
+\vskip.2in
+\begin{enumerate}
+	\item Bad at dealing with simultaneous changes: ``I never make changes, edit or work with files in dropbox. That’s a very bad idea. Dropbox is very poor at dealing with simultaneous changes to a document.'' (\url{http://www.whooshtranscription.com/dropbox-review/})
+		\begin{itemize}
+			\item Conflicted copies. These happen any time two people update a file at the same time. Or one person updates a file on a second device when the first has not synced. i.e. ``at the same time'' only means that a sync has not occurred. (\url{http://nerdenterprises.com/blog/2011/05/how-to-avoid-conflicting-copies-in-drop-box/})
+			\begin{itemize}
+				\item Procedure for creating conflicted copy with oneself
+					\begin{enumerate}
+						\item Create file and wait for it to sync to Dropbox and then down to second device
+						\item Disconnect second device from internet
+						\item Make a change to each file (even the exact same change)
+						\item Reconnect second device to the internet. Wait for sync to occur
+						\item Voil\`{a}
+					\end{enumerate}
+				\item Much easier to create conflicted copy with a collaborator...
+			\end{itemize}
+		\end{itemize}
+	\item Automatic sync does not always work. Not clear how to replicate this. (\url{http://www.whooshtranscription.com/dropbox-review/}). Some possibilities:
+		\begin{itemize}
+		  \item Dropbox mea culpa about OS incompatibilities (\url{https://www.dropbox.com/en/help/145})
+			\item Confusion about two different types of ``sharing;'' one only sends the files once; the other sends all future updates as well \\ (\url{http://simonhackett.com/2013/04/05/dropbox-sharing-doesnt-work-and-the-fi/})
+		\end{itemize}
+	\item 30-day retrieval: ``For a free account any file deleted in the in the last 30 days can be undeleted.'' (\url{http://www.whooshtranscription.com/dropbox-review/})
+		\begin{itemize}
+			\item If you have Dropbox Pro, you can purchase Extended Version History for $\$$39/yr to get 365-day retrieval
+			\item Packrat was the same price with unlimited version history, but has been phased out
+		\end{itemize}
+	\item Files are deleted if anyone sharing them deletes them or moves them out of dropbox and disconnects the new location \\
+	(\url{http://www.businessinsider.com/weird-feature-in-dropbox-deletes-files-2014-4})	
+	\item Out of control directories with multiple date-stamped versions, futile attempts to use text files to keep records of what you've
+done.
+\end{enumerate}
+
+
+
+\end{document}
