@@ -18,7 +18,7 @@ Origins of the Names of the Days of the Week
 
 5. Thursday: Thor's Day. Norse god of thunder.
 
-6. Friday: Freya's Day. Teutonic god of love, beauty and fecundity.
+6. Friday: Freya's Day. Teutonic god of love, beauty and fecundity, and Kristy's dog!
 
 7. Saturday: Saturn's Day. Roman/Italic god of agriculture.
 
