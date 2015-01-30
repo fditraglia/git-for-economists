@@ -22,7 +22,7 @@ Origins of the Names of the Days of the Week
 
 7. Saturday: Saturn's Day. Roman/Italic god of agriculture.
 
-Conclusion: we need FIVE more dogs _each_.
+Conclusion: we need FIVE more dogs _each_. AT LEAST.
 
 Reference
 -------------
